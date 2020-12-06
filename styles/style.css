@@ -158,3 +158,33 @@ section .section-heading {
   justify-content: center;
   text-align: center;
 }
+
+/* Form Search */
+.card-weather-title {
+  padding: 1.2rem 0;
+  margin-bottom: 0;
+}
+.form-search {
+  padding: 2rem 0;
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 50%;
+  border-radius: 4rem;
+  outline: none;
+  padding: 0.5rem 0.5rem;
+}
+.submit-btn {
+  background: #f2f2f2;
+  border-radius: 4rem;
+  color: #363636 !important;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 100px;
+}
