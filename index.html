@@ -82,20 +82,22 @@
             <h3 class="card-weather-title">
               Don't Forget to Check the Weather!
             </h3>
-            <input
-              id="search"
-              type="search"
-              aria-label="search input"
-              placeholder="Check the local weather with Zipcode"
-            />
-            <button id="submit" class="submit-btn">Go!</button>
-            <div class="card-body">
-              <h3 class="card-title">Current Weather:</h3>
-              <div id="icon"></div>
-              <div id="city"><strong></strong></div>
-              <div id="weather"></div>
-              <div id="time"></div>
-              <div><a href="#" class="hide">Hide</a>
+            <form class="form-search">
+              <input
+                class="inputValue"
+                type="search"
+                aria-label="search input"
+                placeholder="Check the local weather with Zipcode"
+              />
+              <button class="submit-btn">Go!</button>
+            </form>
+            <h3 class="card-title" id="weatherResults">Current Weather:</h3>
+            <div class="display">
+              <h1 class="name"></h1>
+              <p class="icon"></p>
+              <p id="hi-temp" class="hi-temp"></p>
+              <p class="low-temp"></p>
+              <p class="humidity"></p>
             </div>
           </div>
         </div>
@@ -154,7 +156,5 @@
     ></script>
     <!-- Custom JavaScript -->
     <script src="app.js"></script>
-    <!-- Custom JQuery -->
-    <script src="search.js"></script>
   </body>
 </html>
